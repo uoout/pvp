@@ -1,0 +1,8 @@
+
+if @findtype 0x1f56 0 'backpack'
+ usetype '0x1f56'
+ autotargetenemy
+else
+ cast 'Energy Bolt'
+ autotargetenemy
+endif
